@@ -29,29 +29,28 @@ h1 {
   margin: 16px auto;
 }
 
-h2 {
-  margin-bottom: 10px;
-}
-
 .heading {
   font-size: 13px;
   padding-bottom: 5px;
 }
 
-.items {
-  font-size: 13px;
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
 }
 
-.items td{
-  padding-bottom: 7px
+a {
+  color: black;
+}
+
+h2 {
+  margin: 10px 0;
 }
 
 label {
   display: block;
-}
-
-.flash {
-  color: #008000;
 }
 
 .field {
@@ -60,4 +59,12 @@ label {
 
 .actions {
   margin-bottom: 10px;
+}
+
+.flash {
+  color: #008000;
+}
+
+p {
+  margin: 33px;
 }
