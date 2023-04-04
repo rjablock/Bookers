@@ -41,6 +41,32 @@ td {
     font-size: 13px;
 }
 
+.error {
+  width: 450px;
+  background-color: #f0f0f0;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
+
+.error h2 {
+  font-size: 12px;
+  padding: 5px 5px 5px 15px;
+  background-color: #c00;
+  color: #fff;
+  margin: -7px -7px 0 -7px
+}
+
+.error ul {
+  padding-left: 40px;
+  margin: 33px;
+}
+
+.error li {
+  font-size: 12px;
+}
+
 a {
   color: black;
 }

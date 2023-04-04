@@ -5,10 +5,10 @@ class BooksController < ApplicationController
   end
 
   def create
-    book = Book.new(book_params)
-    if book.save
+    @book = Book.new(book_params)
+    if @book.save
       flash[:notice] = "Book was successfully created."
-      redirect_to book_path(book.id)
+      redirect_to book_path(@book.id)
     else
       # 以下の一行を足さないとindex.html上の@booksに何も代入されず、エラーが起きる
       @books = Book.all
